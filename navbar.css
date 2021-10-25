@@ -29,6 +29,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 5%;
+    min-height: 42px;
     border-bottom: 1px solid white;
 }
 
@@ -109,6 +110,7 @@ body {
 }
 
 footer {
+    padding-bottom: 50px;
     font-family: "Rubik";
     text-align: center;
     margin-top: auto;
