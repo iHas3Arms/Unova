@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+.body {
+    display: block;
+    color: rgb(0, 211, 226);
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+
+.animation-div {
+    background-color: rgb(12, 147, 156);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    animation: switchColour 5s;
+}
+
+.tiunova {
+    font-size: 35px;
+    padding-top: 10px;
+    border-top: 1px solid cyan;
+}
+
+@keyframes switchColour {
+    0%{padding: 10px;}
+    40%{padding: 10px;}
+    100%{padding: 50px;}
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+#block {
+    position: absolute;
+    width: 0;
+    height: 140px;
+    background-color: rgb(12, 147, 156);
+    animation: animating 3s;
+}
+
+@keyframes animating {
+    0%{width: 300px;opacity: 10;}
+    5%{width: 300px;opacity: 9;}
+    30%{opacity: 0.96;}
+    100%{width: 0px;opacity: 0;}
+}
+
+.wait {
+    animation: wait 4.5s;
+}
+
+.text {
+    font-size: 18px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    width: 520px;
+}
+
+.waitsmore {
+    animation: waitsmore 6s;
+}
+
+@keyframes waitsmore {
+    0%{opacity: 0;}
+    80%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes wait {
+    0%{opacity: 0;}
+    66%{opacity: 0;}
+    100%{opacity: 1;}
+}
